@@ -6,7 +6,7 @@
   <h1>My project: Bilal Alfakih</h1>
   <?php
     
-    @$db = new mysqli('localhost', 'balfaki','Balfaki4266!', 'balfaki');
+    @$db = new mysqli('', '','', '');
 
     if (mysqli_connect_errno()) {
       echo 'Error: Could not connect to database.  Please try again later.';
